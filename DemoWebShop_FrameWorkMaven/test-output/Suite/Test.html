@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 29 10:44:11 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>93 seconds (93641 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testscript.books.WishlistTestCase.verify_User_Is_Able_To_Add_Product_To_Wishlist()'><b>verify_User_Is_Able_To_Add_Product_To_Wishlist</b><br>Test class: testscript.books.WishlistTestCase<br/>
+<a href="#Output-48390515" onClick='toggleBox("Output-48390515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-48390515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-48390515">
+books Page is displayed<br/>
+fiction ex books Page displayed<br/>
+wishlist Page displayed<br/>
+verify_User_Is_Able_To_Add_Product_To_Wishlist is pass<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>testscript.books.WishlistTestCase@54a7079e</td></tr>
+<tr>
+<td title='TestScripts.JewelryTestCase.verify_User_Is_Able_To_Add_Product_To_Wishlist_and_Cart()'><b>verify_User_Is_Able_To_Add_Product_To_Wishlist_and_Cart</b><br>Test class: TestScripts.JewelryTestCase<br/>
+<a href="#Output-2120404899" onClick='toggleBox("Output-2120404899", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2120404899" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2120404899">
+Jewelry Page displayed<br/>
+Black & White Diamond Heart is Page displayed<br/>
+wishlist Page displayed<br/>
+Shopping Cart Page displayed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>TestScripts.JewelryTestCase@26e356f0</td></tr>
+<tr>
+<td title='testscript.digitaldownloads.AddtoCartTestCase.verify_User_Is_Able_To_Add_the_Products_to_the_cart()'><b>verify_User_Is_Able_To_Add_the_Products_to_the_cart</b><br>Test class: testscript.digitaldownloads.AddtoCartTestCase<br/>
+<a href="#Output-1480816641" onClick='toggleBox("Output-1480816641", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1480816641" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1480816641">
+Digital downloads Page displayed<br/>
+Shopping Cart Page displayed<br/>
+verify_User_Is_Able_To_Add_the_Products_to_the_cart is pass<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>testscript.digitaldownloads.AddtoCartTestCase@4310d43</td></tr>
+<tr>
+<td title='testscript.search.BlueJeansTestCase.verify_user_Is_Able_to_Add_Jeans_to_the_cart()'><b>verify_user_Is_Able_to_Add_Jeans_to_the_cart</b><br>Test class: testscript.search.BlueJeansTestCase<br/>
+<a href="#Output-1569164069" onClick='toggleBox("Output-1569164069", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1569164069" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1569164069">
+Searched Jeans Page is displayed<br/>
+Blue Jeans Product is displayed<br/>
+Shopping Cart Page displayed<br/>
+Qty added<br/>
+verify_user_Is_Able_to_Add_Jeans_to_the_cart() is pass<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>testscript.search.BlueJeansTestCase@47d9a273</td></tr>
+<tr>
+<td title='testscript.register.RegisterTestCase.verify_User_Is_Able_to_Register()'><b>verify_User_Is_Able_to_Register</b><br>Test class: testscript.register.RegisterTestCase<br>Parameters: Nivi, M, nivi@gmail.com, nivi@1234, nivi@1234<br/>
+<a href="#Output-320861946" onClick='toggleBox("Output-320861946", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-320861946" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-320861946">
+Register Page displayed<br/>
+verify_User_Is_Able_to_Register is pass<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testscript.register.RegisterTestCase@49049a04</td></tr>
+<tr>
+<td title='testscript.register.RegisterTestCase.verify_User_Is_Able_to_Register()'><b>verify_User_Is_Able_to_Register</b><br>Test class: testscript.register.RegisterTestCase<br>Parameters: Tamil, A, tamil@gmail.com, tamil@1234, tamil@1234<br/>
+<a href="#Output-5563134" onClick='toggleBox("Output-5563134", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5563134" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5563134">
+Register Page displayed<br/>
+verify_User_Is_Able_to_Register is pass<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testscript.register.RegisterTestCase@49049a04</td></tr>
+<tr>
+<td title='testscript.register.RegisterTestCase.verify_User_Is_Able_to_Register()'><b>verify_User_Is_Able_to_Register</b><br>Test class: testscript.register.RegisterTestCase<br>Parameters: Sasikala, T, thgjmyuulsdfghsdfg@gmail.com, 7708sasi, 7708sasi<br/>
+<a href="#Output-550707" onClick='toggleBox("Output-550707", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-550707" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-550707">
+Register Page displayed<br/>
+verify_User_Is_Able_to_Register is pass<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testscript.register.RegisterTestCase@49049a04</td></tr>
+<tr>
+<td title='testscript.register.RegisterTestCase.verify_User_Is_Able_to_Register()'><b>verify_User_Is_Able_to_Register</b><br>Test class: testscript.register.RegisterTestCase<br>Parameters: Sowmi, S, sowmi@gmail.com, sowmi@1234, sowmi@1234<br/>
+<a href="#Output-281049997" onClick='toggleBox("Output-281049997", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-281049997" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-281049997">
+Register Page displayed<br/>
+verify_User_Is_Able_to_Register is pass<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testscript.register.RegisterTestCase@49049a04</td></tr>
+</table><p>
+</body>
+</html>

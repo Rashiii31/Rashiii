@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Register Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[verify_User_Is_Able_to_Register is pass]]>
+    </line>
+    <line>
+      <![CDATA[Register Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[verify_User_Is_Able_to_Register is pass]]>
+    </line>
+    <line>
+      <![CDATA[Register Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[verify_User_Is_Able_to_Register is pass]]>
+    </line>
+    <line>
+      <![CDATA[Register Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[verify_User_Is_Able_to_Register is pass]]>
+    </line>
+    <line>
+      <![CDATA[Digital downloads Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Shopping Cart Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[verify_User_Is_Able_To_Add_the_Products_to_the_cart is pass]]>
+    </line>
+    <line>
+      <![CDATA[books Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[fiction ex books Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[wishlist Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[verify_User_Is_Able_To_Add_Product_To_Wishlist is pass]]>
+    </line>
+    <line>
+      <![CDATA[Jewelry Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Black & White Diamond Heart is Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[wishlist Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Shopping Cart Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Searched Jeans Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Blue Jeans Product is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Shopping Cart Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Qty added]]>
+    </line>
+    <line>
+      <![CDATA[verify_user_Is_Able_to_Add_Jeans_to_the_cart() is pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-29T10:44:11 IST" name="Suite" finished-at="2024-07-29T10:45:45 IST" duration-ms="93641">
+    <groups>
+      <group name="functional">
+        <method signature="RegisterTestCase.verify_User_Is_Able_to_Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" name="verify_User_Is_Able_to_Register" class="testscript.register.RegisterTestCase"/>
+      </group> <!-- functional -->
+      <group name="integration">
+        <method signature="WishlistTestCase.verify_User_Is_Able_To_Add_Product_To_Wishlist()[pri:0, instance:testscript.books.WishlistTestCase@54a7079e]" name="verify_User_Is_Able_To_Add_Product_To_Wishlist" class="testscript.books.WishlistTestCase"/>
+      </group> <!-- integration -->
+    </groups>
+    <test started-at="2024-07-29T10:44:11 IST" name="Test" finished-at="2024-07-29T10:45:45 IST" duration-ms="93641">
+      <class name="testscript.digitaldownloads.AddtoCartTestCase">
+        <test-method is-config="true" signature="launchtheBrowser()[pri:0, instance:testscript.digitaldownloads.AddtoCartTestCase@4310d43]" started-at="2024-07-29T10:44:43 IST" name="launchtheBrowser" finished-at="2024-07-29T10:44:47 IST" duration-ms="4160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchtheBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:testscript.digitaldownloads.AddtoCartTestCase@4310d43]" started-at="2024-07-29T10:44:47 IST" name="performLogin" finished-at="2024-07-29T10:44:49 IST" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="verify_User_Is_Able_To_Add_the_Products_to_the_cart()[pri:0, instance:testscript.digitaldownloads.AddtoCartTestCase@4310d43]" started-at="2024-07-29T10:44:49 IST" name="verify_User_Is_Able_To_Add_the_Products_to_the_cart" finished-at="2024-07-29T10:44:57 IST" duration-ms="8852" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Digital downloads Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Shopping Cart Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[verify_User_Is_Able_To_Add_the_Products_to_the_cart is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_User_Is_Able_To_Add_the_Products_to_the_cart -->
+        <test-method is-config="true" signature="performLogut()[pri:0, instance:testscript.digitaldownloads.AddtoCartTestCase@4310d43]" started-at="2024-07-29T10:44:57 IST" name="performLogut" finished-at="2024-07-29T10:44:58 IST" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogut -->
+        <test-method is-config="true" signature="closetheBrowser()[pri:0, instance:testscript.digitaldownloads.AddtoCartTestCase@4310d43]" started-at="2024-07-29T10:44:58 IST" name="closetheBrowser" finished-at="2024-07-29T10:44:59 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetheBrowser -->
+      </class> <!-- testscript.digitaldownloads.AddtoCartTestCase -->
+      <class name="testscript.search.BlueJeansTestCase">
+        <test-method is-config="true" signature="launchtheBrowser()[pri:0, instance:testscript.search.BlueJeansTestCase@47d9a273]" started-at="2024-07-29T10:45:28 IST" name="launchtheBrowser" finished-at="2024-07-29T10:45:33 IST" duration-ms="4091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchtheBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:testscript.search.BlueJeansTestCase@47d9a273]" started-at="2024-07-29T10:45:33 IST" name="performLogin" finished-at="2024-07-29T10:45:34 IST" duration-ms="1727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="verify_user_Is_Able_to_Add_Jeans_to_the_cart()[pri:0, instance:testscript.search.BlueJeansTestCase@47d9a273]" started-at="2024-07-29T10:45:34 IST" name="verify_user_Is_Able_to_Add_Jeans_to_the_cart" finished-at="2024-07-29T10:45:43 IST" duration-ms="9032" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Searched Jeans Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Blue Jeans Product is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Shopping Cart Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Qty added]]>
+            </line>
+            <line>
+              <![CDATA[verify_user_Is_Able_to_Add_Jeans_to_the_cart() is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_user_Is_Able_to_Add_Jeans_to_the_cart -->
+        <test-method is-config="true" signature="performLogut()[pri:0, instance:testscript.search.BlueJeansTestCase@47d9a273]" started-at="2024-07-29T10:45:43 IST" name="performLogut" finished-at="2024-07-29T10:45:44 IST" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogut -->
+        <test-method is-config="true" signature="closetheBrowser()[pri:0, instance:testscript.search.BlueJeansTestCase@47d9a273]" started-at="2024-07-29T10:45:44 IST" name="closetheBrowser" finished-at="2024-07-29T10:45:45 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetheBrowser -->
+      </class> <!-- testscript.search.BlueJeansTestCase -->
+      <class name="testscript.books.WishlistTestCase">
+        <test-method is-config="true" signature="launchtheBrowser()[pri:0, instance:testscript.books.WishlistTestCase@54a7079e]" started-at="2024-07-29T10:44:59 IST" name="launchtheBrowser" finished-at="2024-07-29T10:45:03 IST" duration-ms="4043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchtheBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:testscript.books.WishlistTestCase@54a7079e]" started-at="2024-07-29T10:45:03 IST" name="performLogin" finished-at="2024-07-29T10:45:04 IST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="verify_User_Is_Able_To_Add_Product_To_Wishlist()[pri:0, instance:testscript.books.WishlistTestCase@54a7079e]" started-at="2024-07-29T10:45:04 IST" name="verify_User_Is_Able_To_Add_Product_To_Wishlist" finished-at="2024-07-29T10:45:11 IST" duration-ms="6255" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[books Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[fiction ex books Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[wishlist Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[verify_User_Is_Able_To_Add_Product_To_Wishlist is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_User_Is_Able_To_Add_Product_To_Wishlist -->
+        <test-method is-config="true" signature="performLogut()[pri:0, instance:testscript.books.WishlistTestCase@54a7079e]" started-at="2024-07-29T10:45:11 IST" name="performLogut" finished-at="2024-07-29T10:45:12 IST" duration-ms="967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogut -->
+        <test-method is-config="true" signature="closetheBrowser()[pri:0, instance:testscript.books.WishlistTestCase@54a7079e]" started-at="2024-07-29T10:45:12 IST" name="closetheBrowser" finished-at="2024-07-29T10:45:12 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetheBrowser -->
+      </class> <!-- testscript.books.WishlistTestCase -->
+      <class name="TestScripts.JewelryTestCase">
+        <test-method is-config="true" signature="launchtheBrowser()[pri:0, instance:TestScripts.JewelryTestCase@26e356f0]" started-at="2024-07-29T10:45:12 IST" name="launchtheBrowser" finished-at="2024-07-29T10:45:16 IST" duration-ms="3918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchtheBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:TestScripts.JewelryTestCase@26e356f0]" started-at="2024-07-29T10:45:16 IST" name="performLogin" finished-at="2024-07-29T10:45:18 IST" duration-ms="1820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="verify_User_Is_Able_To_Add_Product_To_Wishlist_and_Cart()[pri:0, instance:TestScripts.JewelryTestCase@26e356f0]" started-at="2024-07-29T10:45:18 IST" name="verify_User_Is_Able_To_Add_Product_To_Wishlist_and_Cart" finished-at="2024-07-29T10:45:27 IST" duration-ms="9465" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Jewelry Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Black & White Diamond Heart is Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[wishlist Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Shopping Cart Page displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_User_Is_Able_To_Add_Product_To_Wishlist_and_Cart -->
+        <test-method is-config="true" signature="performLogut()[pri:0, instance:TestScripts.JewelryTestCase@26e356f0]" started-at="2024-07-29T10:45:27 IST" name="performLogut" finished-at="2024-07-29T10:45:28 IST" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogut -->
+        <test-method is-config="true" signature="closetheBrowser()[pri:0, instance:TestScripts.JewelryTestCase@26e356f0]" started-at="2024-07-29T10:45:28 IST" name="closetheBrowser" finished-at="2024-07-29T10:45:28 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetheBrowser -->
+      </class> <!-- TestScripts.JewelryTestCase -->
+      <class name="testscript.register.RegisterTestCase">
+        <test-method is-config="true" signature="launchtheBrowser()[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:11 IST" name="launchtheBrowser" finished-at="2024-07-29T10:44:16 IST" duration-ms="4676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchtheBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:16 IST" name="performLogin" finished-at="2024-07-29T10:44:19 IST" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="verify_User_Is_Able_to_Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:19 IST" name="verify_User_Is_Able_to_Register" data-provider="RegisterData" finished-at="2024-07-29T10:44:22 IST" duration-ms="3448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sasikala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[thgjmyuulsdfghsdfg@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7708sasi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7708sasi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Register Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[verify_User_Is_Able_to_Register is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_User_Is_Able_to_Register -->
+        <test-method is-config="true" signature="performLogut()[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:22 IST" name="performLogut" finished-at="2024-07-29T10:44:23 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogut -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:23 IST" name="performLogin" finished-at="2024-07-29T10:44:25 IST" duration-ms="1735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="verify_User_Is_Able_to_Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:25 IST" name="verify_User_Is_Able_to_Register" data-provider="RegisterData" finished-at="2024-07-29T10:44:29 IST" duration-ms="4598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nivi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nivi@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nivi@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[nivi@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Register Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[verify_User_Is_Able_to_Register is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_User_Is_Able_to_Register -->
+        <test-method is-config="true" signature="performLogut()[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:29 IST" name="performLogut" finished-at="2024-07-29T10:44:31 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogut -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:31 IST" name="performLogin" finished-at="2024-07-29T10:44:33 IST" duration-ms="1950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="verify_User_Is_Able_to_Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:33 IST" name="verify_User_Is_Able_to_Register" data-provider="RegisterData" finished-at="2024-07-29T10:44:36 IST" duration-ms="3068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sowmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sowmi@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sowmi@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sowmi@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Register Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[verify_User_Is_Able_to_Register is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_User_Is_Able_to_Register -->
+        <test-method is-config="true" signature="performLogut()[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:36 IST" name="performLogut" finished-at="2024-07-29T10:44:37 IST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogut -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:37 IST" name="performLogin" finished-at="2024-07-29T10:44:38 IST" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="verify_User_Is_Able_to_Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:38 IST" name="verify_User_Is_Able_to_Register" data-provider="RegisterData" finished-at="2024-07-29T10:44:41 IST" duration-ms="3176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tamil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tamil@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tamil@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tamil@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Register Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[verify_User_Is_Able_to_Register is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_User_Is_Able_to_Register -->
+        <test-method is-config="true" signature="performLogut()[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:41 IST" name="performLogut" finished-at="2024-07-29T10:44:42 IST" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogut -->
+        <test-method is-config="true" signature="closetheBrowser()[pri:0, instance:testscript.register.RegisterTestCase@49049a04]" started-at="2024-07-29T10:44:42 IST" name="closetheBrowser" finished-at="2024-07-29T10:44:43 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetheBrowser -->
+      </class> <!-- testscript.register.RegisterTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
